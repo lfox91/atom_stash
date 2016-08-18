@@ -1,0 +1,126 @@
+"*":
+  "activate-power-mode":
+    particles:
+      size:
+        max: 3
+      spawnCount:
+        max: 10
+      totalCount:
+        max: 200
+    screenShake:
+      maxIntensity: 2
+  "atom-beautify":
+    general:
+      _analyticsUserId: "cc3c61ac-2d82-4525-80b7-c79b67048439"
+  "atom-htmltidy":
+    enableDynamicTags: true
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 255
+        green: 213
+        blue: 79
+        alpha: 1
+      accentColor:
+        red: 82
+        green: 117
+        blue: 162
+        alpha: 1
+      predefinedColor: "Amber"
+    fonts:
+      fontSize: 15
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      animations: false
+      panelContrast: true
+      panelShadows: true
+  "atom-spotify2":
+    displayOnLeftSide: false
+    showEqualizer: true
+  core:
+    disabledPackages: [
+      "about"
+      "welcome"
+      "language-go"
+      "language-make"
+      "language-mustache"
+      "language-toml"
+      "language-yaml"
+      "background-tips"
+      "language-clojure"
+      "language-objective-c"
+      "react"
+      "atom-typescript"
+    ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "vendor"
+      "nbproject"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "activate-power-mode"
+    ]
+    themes: [
+      "atom-material-ui"
+      "hopscotch"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "monofur"
+    fontSize: 13
+    lineHeight: 1.75
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "00c3be10-0b15-b550-cb6c-2249e95589f4"
+  "genesis-ui":
+    distractionFree:
+      hideBottom: false
+  "gruvbox-plus-syntax": {}
+  "isotope-ui":
+    backgroundImage: true
+    backgroundImagePath: "http://www.pktono.com/portfolio1/background2.jpg"
+    fontFamily: "Roboto"
+    fontWeight: "Extra light / Thin"
+  linter:
+    errorPanelHeight: 25
+  pigments:
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+    markerType: "dot"
+    mergeColorDuplicates: true
+    sortPaletteColors: "by color"
+  react:
+    enabledForAllJavascriptFiles: true
+  "tool-bar": {}
+  "tree-view":
+    autoReveal: true
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+".ansi.text":
+  editor:
+    normalizeIndentOnPaste: "2"
+    softWrapAtPreferredLineLength: true
+".coffee.jsx.source":
+  editor:
+    autoIndentOnPaste: true
+    scrollPastEnd: true
+    softWrapAtPreferredLineLength: true
+".js.jsx.source":
+  editor:
+    scrollPastEnd: true
+    softWrapAtPreferredLineLength: false

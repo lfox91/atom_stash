@@ -1,0 +1,54 @@
+{
+  "name": "toolbar-iconshortcuts",
+  "main": "./lib/toolbar-iconshortcuts",
+  "version": "2.9.0",
+  "description": "Icons from Atom Suda toolbar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagolucio/toolbar-iconshortcuts.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "keywords": [
+    "toolbar",
+    "tool-bar",
+    "toolbar iconshortcuts",
+    "toolbar-iconshortcuts"
+  ],
+  "dependencies": {},
+  "packageDependencies": {
+    "tool-bar": "0.1.1"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0.1.0": "consumeToolBar"
+      }
+    }
+  },
+  "readme": "# toolbar-iconshortcuts package\n\nA more complete option of shortcut icons to the suda toolbar main for ATOM Editor.\n\nPackage Dependencies - It must have installed a toolbar SUDA extension of ATOM before(pre requisite)...[tool-bar](https://atom.io/packages/tool-bar) package.\n\n![Tool bar Icon Shortcuts preview](http://www.thiagolucio.com.br/images/toolbar-iconshortcuts.jpg)\n\n# Buttons\n\n* New File\n* Open...\n* Open Project...\n* Save\n* Find in Buffer\n* Replace in Buffer\n* Toggle Command Palette\n\n* Open in Browser... Need install before the \"Open in Browser\" Package. Search on instal package or goto - https://github.com/magbicaleman/open-in-browser\n\n* Run project on localhost server... Need install before the \"atom-live-server\" Package. Search on instal package or goto - https://atom.io/packages/atom-live-server\n\n* Preview inside ATOM\n* Split Pane Right\n* Toggle Tree-View\n\n* Settings View\n* Reload Window\n* Toggle Developer Tools\n\n\nThis package is based to integrated a \"toolbar\" package from [Suda](https://github.com/suda). You need install first that package.",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/thiagolucio/toolbar-iconshortcuts/issues"
+  },
+  "homepage": "https://github.com/thiagolucio/toolbar-iconshortcuts#readme",
+  "_id": "toolbar-iconshortcuts@2.9.0",
+  "_shasum": "0e767cc6531cdddcdca5444ac91bf8b256847cc3",
+  "_resolved": "file:../d-116610-1577-1vlwae7/package.tgz",
+  "_from": "../d-116610-1577-1vlwae7/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/toolbar-iconshortcuts.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

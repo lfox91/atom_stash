@@ -1,0 +1,45 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+  '.source.js':
+   'Console log':
+     'prefix': 'l'
+     'body': 'console.log'
+   'for loop':
+     'prefix': 'f'
+     'body': 'for(var i = 0; i < .length; i++){ [i] }'
+    'express setup':
+     'prefix':'ex'
+     'body':'\'use strict\'\nvar express= require(\'express\');\nvar app = express();'
+    'comment':
+      'prefix' : 'c'
+      'body': '//////////////////////////////////////////////////\n//\n//////////////////////////////////////////////////'
+  '.source.html':
+    'email':
+      'prefix': 'email'
+      'body': '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Demystifying Email Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+</html>'
